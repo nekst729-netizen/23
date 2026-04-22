@@ -1,6 +1,5 @@
 const BOOKS_API_URL = 'https://fakeapi.extendsclass.com/books';
 
-// Тестовые данные на случай недоступности API
 const MOCK_BOOKS = [
   {
     id: 1,
@@ -47,7 +46,6 @@ export async function fetchBooks() {
   } catch (error) {
     console.warn('⚠️ API недоступен, используем тестовые данные');
     console.warn('Ошибка:', error.message);
-    // Возвращаем тестовые данные если API не работает
     return MOCK_BOOKS;
   }
 }
