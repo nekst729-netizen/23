@@ -1,0 +1,27 @@
+.formula-bar {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dadce0;
+  padding: 0 8px;
+}
+
+.formula-bar__cell-id {
+  width: 60px;
+  padding: 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  border-right: 1px solid #dadce0;
+}
+
+.formula-bar__input {
+  flex: 1;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 12px;
+  font-size: 13px;
+  background: transparent;
+}
