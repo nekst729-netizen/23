@@ -1,1 +1,7 @@
-export const Sidebar = () => <aside className="sidebar">Sidebar</aside>;
+export const Sidebar = () => {
+  return (
+    <aside className="sidebar">
+      <nav>Sidebar Menu</nav>
+    </aside>
+  );
+};
