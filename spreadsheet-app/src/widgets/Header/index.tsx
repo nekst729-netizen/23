@@ -1,0 +1,1 @@
+export const Header = () => <header className="header">Spreadsheet App</header>;
